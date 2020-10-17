@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_btn"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/numberBakyt"
+        style="@style/TextViewContactFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_for_btn_print"
+        android:text="Ата" />
+
+
+    <Button
+        android:id="@+id/numberElvira"
+        style="@style/TextViewContactFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_for_btn_print"
+        android:text="Апа" />
+
+
+    <Button
+        android:id="@+id/numberMirbek"
+        style="@style/TextViewContactFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_for_btn_print"
+        android:text="Мирбек" />
+
+
+
+    <Button
+        android:id="@+id/numberTaalay"
+        style="@style/TextViewContactFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_for_btn_print"
+        android:text="Жумадил байке" />
+
+</LinearLayout>
